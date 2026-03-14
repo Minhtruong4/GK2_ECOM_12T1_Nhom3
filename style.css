@@ -1,0 +1,517 @@
+/* ================== DARK LUXURY THEME ================== */
+
+body {
+    background-color: #0f0f0f;
+    color: #e5e5e5;
+}
+
+h1, h2, h4, h6 {
+    color: #ffffff;
+}
+
+p {
+    color: #bbbbbb;
+}
+
+#header {
+    background: #111;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.05);
+}
+
+#navbar li a {
+    color: #e5e5e5;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #c0c0c0;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    background: #c0c0c0;
+}
+
+/* HERO */
+
+#hero {
+    background-position: center;
+}
+
+#hero h1 {
+    color: #c0c0c0;
+}
+
+#hero button {
+    background: #c0c0c0;
+    color: #111;
+    border-radius: 30px;
+    padding: 14px 40px;
+    transition: 0.3s ease;
+}
+
+#hero button:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+/* ================== PRODUCTS ================== */
+
+#product1 {
+    text-align: center;
+}
+
+#product1 h2 {
+    margin-bottom: 10px;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.pro {
+    width: 30%;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px solid #222;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(255,255,255,0.05);
+    margin: 15px 0;
+    transition: 0.3s ease;
+    background-color: #1a1a1a;
+}
+
+.pro:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(192,192,192,0.2);
+}
+
+.pro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.pro .des span {
+    color: #888;
+    font-size: 12px;
+}
+
+.pro .des h5 {
+    padding-top: 7px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.pro .des h4 {
+    padding-top: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #c0c0c0;
+}
+/* ================= HEADER ================= */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: #111;
+    border-bottom: 1px solid #222;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    width: 420px;
+    height: 100px
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-weight: 500;
+    transition: 0.3s ease;
+    font-size: 17px;
+}
+
+#navbar a:hover,
+#navbar a.active {
+    color: #c0c0c0;
+}
+
+/* ================= HERO ================= */
+
+#hero {
+    height: 90vh;
+    background: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.4)),
+                url("assets/img/Untitled design.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h4 {
+    font-size: 30px;
+    color: #c0c0c0;
+    margin-bottom: 35px;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.hero-text p {
+    color: #bbbbbb;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    background: #c0c0c0;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* ================= FEATURE ================= */
+
+#feature{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    text-align:center;
+}
+
+#feature .fe-box{
+    width:250px;
+    padding:30px;
+    border-radius:10px;
+    background:#111;
+    border:1px solid #222;
+    transition:0.3s;
+}
+
+#feature .fe-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(255,255,255,0.08);
+}
+
+/* ===== Product Grid nâng cấp chuẩn hơn ===== */
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.pro {
+    width: 30%;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px solid #222;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(255,255,255,0.05);
+    margin: 15px 0;
+    transition: 0.3s ease;
+    background-color: #1a1a1a;
+}
+/* ===== Banner ===== */
+
+#banner {
+    text-align: center;
+    background: #111;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+#banner h2 span {
+    color: #ff0000;
+}
+/* ===== Newsletter ===== */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+#newsletter .form {
+    display: flex;
+}
+
+#newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+#newsletter button {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+}
+/* ===== SM Banner ===== */
+
+#sm-banner{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+#sm-banner .banner-box{
+    flex:1;
+    min-width:500px;
+    height:35vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+    background-size:cover;
+    background-position:center;
+}
+/* ===== Footer ===== */
+
+footer {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+/* ================= GLOBAL SPACING ================= */
+
+.section-p1{
+    padding:60px 80px;
+}
+
+.section-m1{
+    margin:40px 0;
+}
+
+/* ================= MAIN BANNER ================= */
+
+#banner{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+    url("banner.png") center/cover no-repeat;
+    height:40vh;
+    color:#fff;
+}
+
+#banner h4{
+    font-size:20px;
+    margin-bottom:10px;
+    letter-spacing:2px;
+}
+
+#banner h2{
+    font-size:40px;
+}
+
+#banner span{
+    color:#c0c0c0;
+}
+
+#banner button{
+    margin-top:20px;
+    background:#c0c0c0;
+    color:#111;
+    border:none;
+    padding:12px 30px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#banner button:hover{
+    background:white;
+    transform:translateY(-3px);
+}
+
+/* ================= SMALL BANNER ================= */
+
+#sm-banner{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+#sm-banner .banner-box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("banner1.png") center/cover no-repeat;
+    min-width:48%;
+    height:35vh;
+    padding:40px;
+    color:white;
+}
+
+#sm-banner .banner-box2{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("banner2.png") center/cover no-repeat;
+}
+
+#sm-banner h2{
+    font-size:32px;
+}
+
+#sm-banner span{
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+#sm-banner button{
+    padding:10px 25px;
+    border:1px solid white;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#sm-banner button:hover{
+    background:white;
+    color:black;
+}
+
+/* ================= NEW PRODUCTS ================= */
+
+#new-products h2{
+    text-align:center;
+}
+
+#new-products p{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* ================= NEWSLETTER ================= */
+
+#newsletter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    background:#111;
+    color:white;
+}
+
+#newsletter h4{
+    font-size:24px;
+}
+
+#newsletter span{
+    color:#c0c0c0;
+}
+
+#newsletter .form{
+    display:flex;
+}
+
+#newsletter input{
+    padding:12px;
+    width:260px;
+    border:none;
+    outline:none;
+}
+
+#newsletter button{
+    background:#c0c0c0;
+    color:black;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+/* ================= FOOTER ================= */
+
+footer .social{
+    display:flex;
+    gap:20px;
+    margin-top:10px;
+}
+
+footer .social a{
+    color:white;
+    font-size:20px;
+    transition:0.3s;
+}
+
+footer .social a:hover{
+    color:#c0c0c0;
+    transform:translateY(-3px);
+}
+
+/* ================= PRODUCT HOVER UPGRADE ================= */
+
+.pro img{
+    transition:.4s;
+}
+
+.pro:hover img{
+    transform:scale(1.05);
+}
+
+.pro:hover{
+    box-shadow:0 15px 40px rgba(255,255,255,0.1);
+}
