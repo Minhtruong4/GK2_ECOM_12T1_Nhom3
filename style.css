@@ -315,30 +315,56 @@ p {
 }
 /* ===== Footer ===== */
 
-footer {
-    background: #000;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.footer{
+    background:#000;
+    color:#ccc;
 }
 
-footer .col {
-    margin-bottom: 20px;
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:80px;
 }
 
-footer h4 {
-    margin-bottom: 15px;
+.footer-col h4{
+    color:white;
+    font-size:18px;      /* tiêu đề to hơn */
+    font-weight:700;     /* bold */
+    margin-bottom:25px;
+    letter-spacing:1px;
 }
 
-/* ================= GLOBAL SPACING ================= */
-
-.section-p1{
-    padding:60px 80px;
+.footer-col p{
+    font-size:15px;      /* chữ nội dung to hơn */
+    font-weight:500;     /* hơi đậm */
+    margin-bottom:12px;
+    cursor:pointer;
 }
 
-.section-m1{
-    margin:40px 0;
+.footer-col p:hover{
+    color:white;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social a{
+    color:white;
+    margin-right:15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:#c0c0c0;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:40px;
+    font-size:13px;
+    color:#777;
 }
 
 /* ================= MAIN BANNER ================= */
